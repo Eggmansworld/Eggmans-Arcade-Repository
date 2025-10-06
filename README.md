@@ -33,7 +33,7 @@ This collection **tries hard not to** include:
 - **TeknoParrot** dumps  
 - **MAME** dumps  
 
-These projects already have their own maintainers and DATs, and should be collected separately.
+These projects already have their own maintainers and DATs, and should be collected separately. There may be derivative works of the aforementioned that end up in this collection.
 
 ---
 
@@ -70,7 +70,7 @@ If you have access to it—**don’t sit on it. Share it. Preserve it.**
 ---
 
 ## Acknowledgments
-Thanks to the following for their contributions (direct or indirect):  
+Thanks to the following for their contributions (direct or indirect, with or without permission):  
 - **Yori Yoshizuki**  
 - **TFK**  
 - **Arcade Freaks** (touchscreen sets)  
@@ -80,4 +80,4 @@ Thanks to the following for their contributions (direct or indirect):
 
 ## License
 This repository is provided **as-is, with no warranty**.  
-Content is preserved for historical and educational purposes.  
+Content is preserved for historical and educational purposes. Hash values of files are all these datfiles contain.
