@@ -1,10 +1,9 @@
-DATFILES ARE FORTHCOMING.. SOON!!
+Current Archive Size: 11.3TB
 
 # Eggman’s Arcade Repository 
 
 ## Overview
-Eggman’s Arcade Repository is a **community-driven preservation project** that collects arcade game dumps from across the decades.  
-The goal is to provide a central archive where these files can survive long-term, even as forums, websites, and chatrooms disappear.  
+Eggman’s Arcade Repository is a **community-driven preservation project** that collects arcade game dumps from across the decades. The goal is to provide a central archive where these files can survive long-term, even as forums, websites, and chatrooms disappear.  
 
 ⚠️ **Disclaimer:**  
 This repository is for archival and preservation purposes only.  
@@ -18,22 +17,22 @@ Use at your own discretion.
 - Games in mixed states:
   - Some with pre-existing loaders.
   - Some in a playable state.
-  - Many as raw dumps or file copies without emulator support.
-- Proprietary hard drive formats (e.g., `.mrimg`) converted where possible into generic `.img` files. (Some conversions may still be pending.)
+  - Many as raw dumps, restore discs or hard drive file copies without emulator support.
+- Proprietary hard drive formats (e.g., `.mrimg`) converted where possible into generic `.img` files. (Some conversions may still be pending, such as .GHO)
 - Content inherited from older abandoned collections (e.g., Yori’s).
 - Heavy representation of **rhythm/Bemani games**, though completeness is not guaranteed.
 
 ---
 
 ## Exclusions
-This collection **tries hard not to** include:
+This collection **tries really hard not to** include:
 - **Redump** dumps  
 - **No-Intro** dumps  
 - **Sega ALL.Net** dumps  
 - **TeknoParrot** dumps  
 - **MAME** dumps  
 
-These projects already have their own maintainers and DATs, and should be collected separately. There may be derivative works of the aforementioned that end up in this collection.
+These projects already have their own maintainers and DATs, and should be collected separately. There may be derivative works of those aforementioned that end up in this collection.
 
 ---
 
@@ -70,14 +69,14 @@ If you have access to it—**don’t sit on it. Share it. Preserve it.**
 ---
 
 ## Acknowledgments
-Thanks to the following for their contributions (direct or indirect, with or without permission):  
+Thanks to the following for their contributions (with or without permission):  
 - **Yori Yoshizuki**  
+- **Archive.org**  
 - **TFK**  
-- **Arcade Freaks** (touchscreen sets)  
-- **archive.org**  
+- **Arcade Freaks** (touchscreen)  
 
 ---
 
 ## License
 This repository is provided **as-is, with no warranty**.  
-Content is preserved for historical and educational purposes. Hash values of files are all these datfiles contain.
+Content is preserved for historical and educational purposes. Datfiles only contain hash values of files found on legally owned media.  
