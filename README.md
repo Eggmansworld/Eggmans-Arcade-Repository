@@ -1,4 +1,4 @@
-Current Archive Size: 11.3TB
+Current Archive Size: 11.4TB
 
 # Eggman’s Arcade Repository 
 
