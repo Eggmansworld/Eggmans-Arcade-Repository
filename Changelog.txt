@@ -1,2 +1,2 @@
 Taiko no Tatsujin Nijiiro Version (39.06) (2023) (Japan) [Namco BNA1 Lite] [taikoloader][working]
-updated to working status using https://github.com/ansongo/taikoarcadeloader
+- updated to standalone working status using https://github.com/ansongo/taikoarcadeloader
