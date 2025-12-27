@@ -1,3 +1,9 @@
+If you would like to support this project, you have my gratitude! It will only be put towards items such as expanding the storage needs for the project data.
+
+<a href="https://buymeacoffee.com/eggmansworld">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" height="45" alt="Buy Me a Coffee">
+</a>
+
 Current Archive Size: ~11.4TB
 
 # Eggman’s Arcade Repository 
