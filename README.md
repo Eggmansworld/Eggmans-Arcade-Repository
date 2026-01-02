@@ -4,89 +4,131 @@ If these tools, dats, or archives save you time or preserve history, consider su
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" height="45" alt="Buy Me a Coffee">
 </a>
 
-Current Archive Size: ~11.4TB
+Current Archive Size: ~15.0TB
 
 # Eggman’s Arcade Repository 
 
 ## Overview
-Eggman’s Arcade Repository is a **community-driven preservation project** that collects arcade game dumps from across the decades. The goal is to provide a central archive where these files can survive long-term, even as forums, websites, and chatrooms disappear.  
-
-It has two overarching goals:
-1. If no emulator exists, preserve the game in a usable format such as a drive image, file copy, downloadable content, or even restore discs.
-2. If an emulator exists, preserve the game and also set the game up so it can be played (non-destructive).
+Eggman’s Arcade Repository is a **preservation project** that archives arcade games to ensure their long-term retention. There are still thousands of games not yet emulated, but have been made available and are just floating around out there in the digital world. The goal is to provide a central archive where the files can survive long-term, even as forums, websites, and chatrooms disappear. 
 
 ⚠️ **Disclaimer:**  
+This repository is for archival and preservation purposes only.  
 No guarantees are made regarding playability, accuracy, or completeness.  
 Use at your own discretion.  
+Datfiles are only designed and tested for use with [RomVault](https://www.romvault.com). These dats may not work in other rom managers.
 
 ---
 
 ## Features
 - A wide variety of arcade game dumps, old and new.
-- Many game are raw dumps, restore discs or simple hard drive file copies, without emulator support.
-- Some games are in mixed states:
-  - Some with pre-existing loaders, or 
-  - Some in a completely playable state.
-
-- Proprietary hard drive formats (e.g., `.mrimg`) converted where possible into generic `.img` files. (Some conversions may still be pending, such as Norton Ghost '.GHO' images which require the image to be rewritten to a drive and recaptured)
+- Games in mixed states:
+  - Some with pre-existing loaders.
+  - Some in a playable state.
+  - Many as raw dumps, system restore discs or hard drive file copies without emulator support.
+- Proprietary hard drive formats (e.g., `.mrimg`) converted where possible into generic `.img` files. (Some conversions may still be pending, such as .GHO)
 - Content inherited from older abandoned collections (e.g., Yori’s).
 - Heavy representation of **rhythm/Bemani games**, though completeness is not guaranteed.
 
 ---
 
-## Goals
-- Preserve arcade data in a somewhat sorted and curated condition.  
-- Reduce the risk of rare dumps disappearing as communities shut down or contributors disappear.  
-- Provide a base for others to build on (e.g., loaders, fixes, and emulation work).
-
----
-
 ## Exclusions
-This collection **tries really hard not to** include:
-- **Redump** dumps  
-- **No-Intro** dumps  
-- **Sega ALL.Net** dumps  
-- **TeknoParrot** dumps  
-- **MAME** dumps  
+This collection **tries really hard** not to include arcade-related material from:
+- **Redump**
+- **No-Intro**  
+- **Sega ALL.Net**  
+- **TeknoParrot**  
+- **MAME** 
 
-These projects already have their own maintainers and DATs, and should be collected separately. There may be derivative works of those aforementioned that end up in this collection.
+These projects already have their own maintainers and should be collected separately. 
 
 ---
 
 ## Current Status
-- **Testing:** None of the dumps here are guaranteed tested or working.  
-- **Duplicates:** A first pass has removed obvious duplicates, but some remain.  
-- **Ongoing Work:** This repository is *always* a work in progress. Files may change, be replaced, removed for reorganized over time.  
+- **Testing:** None of the dumps here are guaranteed tested or working, other than the ones indicated as "working" via a loader or emulator.  
+- **Duplicates:** Efforts are made to bring dupes down to a bare minimum.  
+- **Ongoing Work:** This repository is *always* a work in progress. Files may change, be replaced, or reorganized over time.  
+
+---
+
+## Goals
+- Preserve arcade data in a sorted and curated condition.  
+- Reduce the risk of rare dumps disappearing as communities shut down or contributors disappear.  
+- Provide a base for others to build on (e.g., loaders, fixes, and emulation work).  
+
+---
+
+## File Legend
+(w) = Working. A game has been setup with a loader, tested and working up to in-game play (if possible).  
+(nw) = Not Working. A loader exists and I attempted to setup and test the game, and the game is not working. Probably my fault.  
+(S2x) = Spice2x, a maintained and updated derivative of Spicetools.  
+(standalone) = the game has its own unique loader, or can be run by its own exe.  
+(SRD) = System Restore Disc  
+(vhd) = vhd containers, some are browsable with 7zip or mountable. some may be encrypted.  
+(exe) = game executables  
+(opt) = option files (Sega ALLS)  
+(app) = application files (Sega ALLS)  
+
+## (unpacked) vs (extracted)
+These two tags were the toughest to initially assign. The terms "unpacked" and "extracted" describe completely separate methods of how the game files were accessed on the original media they were contained in. The tags do NOT describe the state of the files themselves.
+
+The tags, from my point of view, mean this:
+
+**unpacked** = the file contents were unpacked from their original container/drive/image/dump and required intervention by 3rd party tools via:
+	- decryption at the drive/partition layer
+	- de-enveloping of executables
+	- deobfuscation of game files
+	- HASP or dongle information to perform any of the aforementioned tasks
+
+**extracted** = the physical game files can be extracted out of its container without the need for 3rd party intervention. An example would be extracting the contents of an unprotected hard drive image. This does NOT mean the game files are usable. A typical scenario would be the game vendor uses a physical security dongle as its method of run-time protection and without it, the game will not function.
+
+At this point in the early stages of the repo's life, I've made the general assumption that a "folder of game files" are tagged with "unpacked" until it can be determined what method was used to obtain the files. It will take considerable time to dig into each game and figure out exactly what tag category the archives belong in. If you're an expert on this sort of thing and want to submit corrections in this regard, I would be more than happy to receive your help!
+
+To many of you, the use of either tag simply means the archive contains only game files, and not the original media they came from.
 
 ---
 
 ## How to Contribute
 Contributions are always welcome! Ways you can help:
-- **Cleanup & Curation** - Identify broken/useless files and suggest removals.  
-- **Rhythm/Bemani Expertise** - These are notoriously painful to manage. If you’re knowledgeable, please share your insight.  
-- **New Dumps** - Share material to grow the collection for future preservation.  
-- **Playability** - Share loaders, tools, or guides that make certain games playable.  
+- **Cleanup & Curation** – Identify broken/useless files and suggest removals.  
+- **Rhythm/Bemani Expertise** – These are notoriously painful to manage. If you’re knowledgeable, please share your insight.  
+- **New Dumps** – Share material to grow the collection for future preservation.  
+- **Playability** – Share loaders, tools, or guides that make certain games playable.  
 
 👉 If you have something to add, feel free to open an issue, submit a pull request, or reach out directly.  
 
 ---
 
-## A Note to the Community
-This repository will **never be finished**.  
-There is still a massive amount of arcade material out there that isn’t included.  
-If you have access to it - **don’t sit on it. Share it. Preserve it.**  
+## Direct notes to the arcade community:
+- This repo will **never be finished**.  
+- This repo will get updated when I feel it deserves an update.
+- There is still a massive amount of arcade material out there that isn’t included. If you have access to it—**don’t sit on it. Share it. Preserve it.**  
+- this is MY repo, so I do things how I like them to be done.
+- If you don't like something that is included in it, ignore it.
+- I do not judge what gets added to the repo. If you don't like rhythm or redemption games, nobody's forcing you.
+- If you think something is broken, provide a solution on how to fix it.
+- If you think something needs to be changed in the repo (game in wrong place, wrongly tagged files, etc), submit an issue on github and validate your claim with details and proof.
+- DO NOT BOTHER ME ABOUT TEMP FILES. For this repo, it is NOT about cleaning up games. Especially log and temp files! These files could provide valuable running details about the system before the power plug was pulled on it.
+- There are empty placeholder folders for some games. Find me something to put in them!
+- Game dumps are provided AS-IS, and almost always exactly AS-FOUND.
+- don't bother me about "You don't you have XX game" or "do you have YY game" or "how do I setup ZZ game". 
+	- If it's not in the dats, it's not in the repo. If games are not made available to me, I can't add them.
+	- I'm not your tour guide - games are separated by manufacturer, system and game.
+	- Do your own setup homework, join communities, use search engines and AI. Explore and learn.
 
 ---
 
 ## Acknowledgments
-Thanks to the following for their contributions (with or without permission):  
+Thanks to the following for their indirect contributions (with or without permission):  
 - **Yori Yoshizuki**  
 - **Archive.org**  
 - **TFK**  
-- **Arcade Freaks** (touchscreen)  
+- Arcade Freaks (touchscreen content)  
+- nameless websites, forums and trackers
+- anonymous benefactors
+- the numerous individuals who have provided continued assistance.
 
 ---
 
 ## License
 This repository is provided **as-is, with no warranty**.  
-Content is preserved for historical and educational purposes. Provided datfiles only contain hash values of files found on legally owned media.  
+Content is preserved for historical and educational purposes. Datfiles presented on github ONLY contain file hash values. No actual game data is provided.  
