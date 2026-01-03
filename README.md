@@ -42,6 +42,28 @@ This collection **tries really hard** not to include arcade-related material fro
 These projects already have their own maintainers and should be collected separately. 
 
 ---
+# Eggman’s Arcade Repository Extras
+
+## Overview
+This separates out content that would otherwise clutter up the core game repository, such as:
+- **Loaders** - various game loaders used to run some of the repo content
+- **Manuals**
+- **Manufacturers** - various items such as artwork, tools/utilities, executables
+- **Marquees**
+- **Patches** - sorted by game - quite a bit pertains to TeknoParrot but there is a good amount of other loader content
+- **PC Collections** - collections based on arcade games with a frontend
+- **PC Related Works** - game derivatives based on or part of a game series that were only released on the PC platform
+- **PC Related Works Rhythm** - PC games based on rhythm-style arcade gameplay
+- **PC Related Works Rhythm Community** - beatoraja, BMS community-based collections
+- **TeknoParrot** - content pertaining to TPUI content and settings
+- **Touchscreen** - PC-based touchscreen content
+- **Tutorials** - knowledge-based stuff
+- **Utilities** - apps and tools related to arcade games
+- **Vending, Kiosks** - why not.
+
+Knowing that not everyone would be interested in some of this extras/derivative content, I have split some folders up to make it easier to target the extras that you want to preserve.
+
+---
 
 ## Current Status
 - **Testing:** None of the dumps here are guaranteed tested or working, other than the ones indicated as "working" via a loader or emulator.  
