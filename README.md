@@ -136,6 +136,18 @@ Contributions are always welcome! Ways you can help:
 	- Do your own setup homework, join communities, use search engines and AI. Explore and learn.
 
 ---
+## Notes for RomVault users
+
+## If you are planning on loading the entire collection into RomVault, please mind the requirements in order to do so successfully.
+
+- The complete Arcade Repo contains and audits over 23 million files.
+- Some datfiles are extremely large and may take longer to load and parse.
+- The arcade repo requires about 20GB of available RAM when it is loaded into memory.
+- During rebuild operations, you may see RAM usage climb well over 30GB.
+
+It is highly recommended to work with the arcade repo on a computer with at least 32GB of RAM, ideally 64GB and higher. If you choose to run the arcade repo on a system with less than 32GB, expect find fixes operations to take a LOT longer due to memory pagefile swapping.
+
+---
 
 ## Acknowledgments
 Thanks to the following for their indirect contributions (with or without permission):  
