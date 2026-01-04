@@ -152,6 +152,13 @@ Thanks to the following for their indirect contributions (with or without permis
 
 ---
 
-## License
-This repository is provided **as-is, with no warranty**.  
-Content is preserved for historical and educational purposes. Datfiles presented on github ONLY contain file hash values. No actual game data is provided.  
+## Licensing
+
+Original source code, scripts, tooling, and hand-authored documentation and
+metadata in this repository are licensed under the MIT License.
+
+Archived game data, binaries, firmware, media assets, and other third-party
+materials are **not** covered by the MIT License and remain the property of
+their respective copyright holders.
+
+See the `LICENSE` and `NOTICE` files for full details and scope clarification.
