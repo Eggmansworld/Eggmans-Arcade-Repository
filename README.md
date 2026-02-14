@@ -32,16 +32,33 @@ Datfiles are only designed and tested for use with [RomVault](https://www.romvau
 ---
 
 ## Exclusions
-This collection **tries really hard** not to include arcade-related material from:
+This collection **tries really hard** not to include duplicate arcade-related material already included in sets from:
 - **Redump**
 - **No-Intro**  
-- **Sega ALL.Net**  
+- **Sega ALL.Net** (DataMonster/datjohn)  
 - **TeknoParrot**  
 - **MAME** 
 
 These projects already have their own maintainers and should be collected separately. 
 
 ---
+
+## HARD CAVEATS LOADING THESE DATS IN ROMVAULT!
+
+## If you are planning on loading the ENTIRE dat collection into RomVault, please mind the following requirements in order to do so successfully:
+
+- The complete Arcade Repo contains and audits over 39 million files.
+- **The arcade repo requires about 28GB of available RAM when it is loaded into memory.**
+- Some datfiles are extremely large and may take longer to load and parse. I do try to split up dats to reduce dat file size when possible.
+- During rebuild operations, **you may see RAM usage climb over 40GB.**
+## FIRM RAM REQUIREMENT: you will need at LEAST 32GB of RAM, ideally 48GB and higher. 
+
+## if your system has less than 32GB, you have a few options:
+- remove dats you do not want to use.  Disabling/unchecking them does NOT reduce the amount of RAM.  RAM usage is based on the RV CACHE file, not the selected datfiles!
+- buy more RAM.
+
+---
+
 # EXTRAS folder
 
 ## Overview
@@ -54,7 +71,7 @@ This separates out content that would otherwise clutter up the core game reposit
 - **PC Collections** - collections based on arcade games with a frontend
 - **PC Related Works** - game derivatives based on or part of a game series that were only released on the PC platform
 - **PC Related Works Rhythm** - PC games based on rhythm-style arcade gameplay
-- **PC Related Works Rhythm Community** - beatoraja, BMS community-based collections
+- **PC Related Works Rhythm Community** - beatoraja, BMS community-based collections.
 - **TeknoParrot** - content pertaining to TPUI content and settings
 - **Touchscreen** - PC-based touchscreen content
 - **Tutorials** - knowledge-based stuff
@@ -78,12 +95,12 @@ This separates out content that would otherwise clutter up the core game reposit
 ---
 
 ## File Legend
-(w) = Working. A game has been setup with a loader, tested and working up to in-game play (if possible).  
-(nw) = Not Working. A loader exists and I attempted to setup and test the game, and the game is not working. Probably my fault.  
+(w) = Working. A game can be setup with a loader, tested and working up to in-game play (if possible).  
+(nw) = Not Working. A loader exists and I attempted to setup and test the game, and the game is not working. Does not mean the game could be working at a later date. I do not recheck games very often.  
 (S2x) = Spice2x, a maintained and updated derivative of Spicetools.  
 (standalone) = the game has its own unique loader, or can be run by its own exe.  
 (SRD) = System Restore Disc  
-(vhd) = vhd containers, some are browsable with 7zip or mountable. some may be encrypted.  
+(vhd) = vhd containers, some are browsable with 7zip or mountable. some may be encrypted and non-browsable.  
 (exe) = game executables  
 (opt) = option files (Sega ALLS)  
 (app) = application files (Sega ALLS)  
@@ -103,7 +120,7 @@ The tags, from my point of view, mean this:
 
 At this point in the early stages of the repo's life, I've made the general assumption that a "folder of game files" are tagged with "unpacked" until it can be determined what method was used to obtain the files. It will take considerable time to dig into each game and figure out exactly what tag category the archives belong in. If you're an expert on this sort of thing and want to submit corrections in this regard, I would be more than happy to receive your help!
 
-To many of you, the use of either tag simply means the archive contains only game files, and not the original media they came from.
+To many of you, the use of either "unpacked" or "extracted" tags simply means the archive contains only game files, and not the original media they came from (most likely SRD or HDD images).
 
 ---
 
@@ -136,28 +153,16 @@ Contributions are always welcome! Ways you can help:
 	- Do your own setup homework, join communities, use search engines and AI. Explore and learn.
 
 ---
-## Notes for RomVault users
-
-## If you are planning on loading the entire collection into RomVault, please mind the requirements in order to do so successfully.
-
-- The complete Arcade Repo contains and audits over 23 million files.
-- Some datfiles are extremely large and may take longer to load and parse.
-- The arcade repo requires about 20GB of available RAM when it is loaded into memory.
-- During rebuild operations, you may see RAM usage climb well over 30GB.
-
-It is highly recommended to work with the arcade repo on a computer with at least 32GB of RAM, ideally 64GB and higher. If you choose to run the arcade repo on a system with less than 32GB, expect find fixes operations to take a LOT longer due to memory pagefile swapping.
-
----
 
 ## Acknowledgments
 Thanks to the following for their indirect contributions (with or without permission):  
-- **Yori Yoshizuki**  
 - **Archive.org**  
 - **TFK**  
 - Arcade Freaks (touchscreen content)  
+- **Yori Yoshizuki**  
 - nameless websites, forums and trackers
 - anonymous benefactors
-- the numerous individuals who have provided continued assistance.
+- numerous individuals who have provided continued assistance from the shadows.
 
 ---
 
