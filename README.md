@@ -1,4 +1,4 @@
-If these tools, dats, or archives save you time or preserve history, consider supporting the work:
+If these tools or dats help save you time or assist in your own preservation efforts, consider supporting the work:
 
 <a href="https://buymeacoffee.com/eggmansworld">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" height="45" alt="Buy Me a Coffee">
@@ -6,7 +6,8 @@ If these tools, dats, or archives save you time or preserve history, consider su
 
 
 # Eggman’s Arcade Repository 
-Current Archive Size: ~20.5TB
+Current Archive Size: ~20.5TB  
+Number of files: 39,594,092
 
 ## Overview
 Eggman’s Arcade Repository is a **preservation project** that archives arcade games to ensure their long-term retention. There are still thousands of games not yet emulated, but have been made available and are just floating around out there in the digital world. The goal is to provide a central archive where the files can survive long-term, even as forums, websites, and chatrooms disappear. 
@@ -32,30 +33,31 @@ Datfiles are only designed and tested for use with [RomVault](https://www.romvau
 ---
 
 ## Exclusions
-This collection **tries really hard** not to include duplicate arcade-related material already included in sets from:
+This collection tries very hard not to include duplicate arcade-related materials already included in sets from:
 - **Redump**
 - **No-Intro**  
 - **Sega ALL.Net** (DataMonster/datjohn)  
 - **TeknoParrot**  
 - **MAME** 
 
-These projects already have their own maintainers and should be collected separately. 
+These projects already have their own maintainers and these other sets should be collected separately. 
 
 ---
 
-## HARD CAVEATS LOADING THESE DATS IN ROMVAULT!
+## ⚠️BEFORE LOADING THESE DATS IN ROMVAULT⚠️
 
-## If you are planning on loading the ENTIRE dat collection into RomVault, please mind the following requirements in order to do so successfully:
+This arcade repo is large and resource-intensive. **It is not intended for low-memory systems.**
 
-- The complete Arcade Repo contains and audits over 39 million files.
-- **The arcade repo requires about 28GB of available RAM when it is loaded into memory.**
-- Some datfiles are extremely large and may take longer to load and parse. I do try to split up dats to reduce dat file size when possible.
-- During rebuild operations, **you may see RAM usage climb over 40GB.**
-## FIRM RAM REQUIREMENT: you will need at LEAST 32GB of RAM, ideally 48GB and higher. 
+## If you are planning on loading the ENTIRE arcade repo collection into RomVault:
 
-## if your system has less than 32GB, you have a few options:
-- remove dats you do not want to use.  Disabling/unchecking them does NOT reduce the amount of RAM.  RAM usage is based on the RV CACHE file, not the selected datfiles!
-- buy more RAM.
+You should have at least 32GB of RAM to use these DAT files properly. RomVault loads the entire DAT cache into memory. If your system does not have enough physical RAM available, Windows will move part of that data to the pagefile (virtual memory on disk). The pagefile is significantly slower than real RAM — even on fast NVMe drives. When this happens, you may notice:
+- Slower cache updates
+- Slower "Find Fixes" operations
+- General performance degradation
+
+If your RAM usage is regularly hitting 90% or higher during RomVault operations, you do not have sufficient headroom, and performance will suffer.
+
+In short: this collection expects workstation-class memory, not casual desktop specs.
 
 ---
 
