@@ -48,7 +48,12 @@ These projects already have their own maintainers and these other sets should be
 
 This arcade repo is large and resource-intensive. **It is not intended for low-memory systems.**
 
-## If you are planning on loading the ENTIRE arcade repo collection into RomVault:
+## If you are planning on loading the ENTIRE arcade repo collection into RomVault, please note the following:
+
+This is an example showing only the repo dats fully loaded into an RV instance (no other dats included):
+
+<img width="608" height="76" alt="image" src="https://github.com/user-attachments/assets/4d2c8cc7-c786-40a9-befc-a552064a0e7d" />
+
 
 You should have at least 48GB of RAM to use these DAT files properly. RomVault loads the entire DAT cache into memory, and a scan or fix operation can drive the RAM usage up even higher. If your system does not have enough physical RAM available, Windows will move part of that data to the pagefile (virtual memory on disk). The pagefile is significantly slower than real RAM — even on fast NVMe drives. When this happens, you may notice:
 - Slower cache updates
