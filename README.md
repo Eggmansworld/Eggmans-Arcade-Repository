@@ -6,8 +6,8 @@ If these tools or dats help save you time or assist in your own preservation eff
 
 
 # Eggman’s Arcade Repository 
-Current Archive Size: ~20.5TB  
-Number of files: 39,594,092
+Current Archive Size: ~20.5TB (ZStandard)
+Number of files: ~39.6M
 
 ## Overview
 Eggman’s Arcade Repository is a **preservation project** that archives arcade games to ensure their long-term retention. There are still thousands of games not yet emulated, but have been made available and are just floating around out there in the digital world. The goal is to provide a central archive where the files can survive long-term, even as forums, websites, and chatrooms disappear. 
@@ -76,7 +76,7 @@ Why the heck is it so large? Well, this folder is designed to separate out conte
 - **PC Collections** - collections based on arcade games with a frontend
 - **PC Related Works** - game derivatives based on or part of a game series that were only released on the PC platform
 - **PC Related Works Rhythm** - PC games based on rhythm-style arcade gameplay
-- **Rhythm Community** - beatoraja and BMS community-based collections.
+- **Rhythm Community** - beatoraja and BMS community-based collections. Most of the size is because of this folder. 
 - **TeknoParrot** - content pertaining to TPUI content and settings
 - **Touchscreen** - PC-based touchscreen content
 - **Tutorials** - knowledge-based stuff
