@@ -136,7 +136,16 @@ Contributions are always welcome! Ways you can help:
 - **New Dumps** – Share material to grow the collection for future preservation.  
 - **Playability** – Share loaders, tools, or guides that make certain games playable.  
 
-👉 If you have something to add, feel free to open an issue, submit a pull request, or reach out directly.  
+Have some unknown files that still don't match with the dats? Pack your unknown files up into separate folders named for their system, then create a single archive for each system (zip/7z/rar/tar/gz are all acceptable).  Simply upload them to the Mega Uploads folder provided below. You don't need an account, simply drag and drop into the webpage! We'll give this a try and hopefully I won't see any abuse of the uploads folder.
+
+If you would like to be recognized for your donations, include a note inside the uploads and I'll be sure to add you to a thank you list on this page.
+
+Use the MEGA uploads folder here:
+
+[![mega_uploads](https://github.com/user-attachments/assets/bdd28a8c-6db1-42cc-b0e6-6dc1250b8f8a)](https://mega.nz/filerequest/8y7XTuVrMyc) 
+
+---
+
 
 ---
 
