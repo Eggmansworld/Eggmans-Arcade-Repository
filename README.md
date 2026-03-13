@@ -6,8 +6,8 @@ If these tools or dats help save you time or assist in your own preservation eff
 
 
 # Eggman’s Arcade Repository 
-Current Archive Size: ~20.5TB (ZStandard)
-Number of files: ~39.6M
+Current Archive Size: ~21.3TB (ZStandard)
+Number of files: ~48.8M
 
 ## Overview
 Eggman’s Arcade Repository is a **preservation project** that archives arcade games to ensure their long-term retention. There are still thousands of games not yet emulated, but have been made available and are just floating around out there in the digital world. The goal is to provide a central archive where the files can survive long-term, even as forums, websites, and chatrooms disappear. 
@@ -151,20 +151,19 @@ Use the MEGA uploads folder here:
 
 ## Direct notes to the arcade community:
 
-This is my own project. I am not affiliated or aligned with any p2p or online preservation groups, styled such as Myrient or Minerva or whatever they call themselves.
-If this content is out on the internet, it's due to people using the datfiles to create and manage their own set of file content.
-The data is not hoarded in any way. Whether or not the data eventually reaches p2p or online groups is not up to me.  It's out there.
+I am not affiliated or aligned with any p2p or online preservation groups, stylized as Myrient or Minerva or whatever they call themselves.
+If any of this content is out on the internet, it's due to people using the datfiles to create and manage their own set of file content.
+The data is not hoarded in any way. It's all out there, kiddies.
 
+- this is MY repo, so I do things how I like them to be done.
 - This repo will **never be finished**.  
+- If you don't like something that is included in it, ignore it.
 - This repo will get updated when I feel it deserves an update.
 - There is still a massive amount of arcade material out there that isn’t included. If you have access to it—**don’t sit on it. Share it. Preserve it.**  
-- this is MY repo, so I do things how I like them to be done.
-- If you don't like something that is included in it, ignore it.
 - I do not judge what gets added to the repo. If you don't like rhythm or redemption games, nobody's forcing you to worry about them.
 - If you think something is broken, provide a solution on how to fix it.
 - If you think something needs to be changed in the repo (game in wrong place, wrongly tagged files, etc), submit an issue on github and validate your claim with details and proof.
 - DO NOT BOTHER ME ABOUT TEMP FILES. For this repo, it is NOT about cleaning up games. Especially log and temp files! These files could provide valuable running details about the system before the power plug was pulled on it.
-- There may be empty placeholder folders for some games. Find me something to put in them!
 - Game dumps are provided AS-IS, and almost always exactly AS-FOUND.
 - Don't bother me about "You don't you have XX game" or "do you have YY game" or "how do I setup ZZ game". 
 	- If it's not in the dats, it's not in the repo. If games are not made available to me, I can't add them.
@@ -183,7 +182,7 @@ Thanks to the following for their indirect contributions (with or without permis
 - **Yori Yoshizuki**  
 - nameless websites, forums and trackers
 - anonymous benefactors
-- numerous individuals who have provided continued assistance from the shadows.
+- numerous shadow individuals who have provided continued assistance.
 
 ---
 
