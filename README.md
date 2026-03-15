@@ -6,7 +6,9 @@ If these tools or dats help save you time or assist in your own preservation eff
 
 
 # Eggman’s Arcade Repository 
+
 Current Archive Size: ~21.1TB (ZStandard)
+
 Number of files: ~40.15M
 
 ## Overview
