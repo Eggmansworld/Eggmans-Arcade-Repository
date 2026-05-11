@@ -7,12 +7,21 @@ If these tools or dats help save you time or assist in your own preservation eff
 
 # Eggman’s Arcade Repository 
 
-Current Archive Size: ~21.1TB (ZStandard)
-
-Number of files: ~40.15M
+### Current Archive Size (ZStandard)
+Arcade Repo - 17.7 TB  
+Arcade Repo Supp:  918 GB  
+Arcade Repo Comp: 4.4 TB  
 
 ## Overview
 Eggman’s Arcade Repository is a **preservation project** that archives arcade games to ensure their long-term retention. There are still thousands of games not yet emulated, but have been made available and are just floating around out there in the digital world. The goal is to provide a central archive where the files can survive long-term, even as forums, websites, and chatrooms disappear. 
+
+This repository is split up into 3 distinct datfile collections:
+
+🕹️ **Arcade Repo:** core collection of actual arcade games, sorted by manufacturer - system - game. There is a variety of games provided in various archival formats, such as hard drive images, hard drive file copies, recovery discs/USB, and extracted/unpacked files. Where applicable, updates and other game components are preserved alongside.
+
+🧰 **Arcade Repo Supplementary:** items that are directly related to the games such as artworks, multimedia, loaders, patches, utilities, source code and Omnimixes. 
+
+💻 **Arcade Repo Complementary:** Arcade-related materials that may be interesting to collect to complement arcade games or genres. Things such as spin-off PC games from an arcade franchise, newer arcade-style games made for alternate platforms, rhythm games for PC, community based rhythm games, and various arcade related components such as jukebox, karaoke, photo/sticker booths, vending machines and kiosks.
 
 ⚠️ **Disclaimer:**  
 This repository is for archival and preservation purposes only.  
@@ -38,7 +47,7 @@ Datfiles are only designed and tested for use with [RomVault](https://www.romvau
 This collection tries very hard not to include duplicate arcade-related materials already included in sets from:
 - **Redump**
 - **No-Intro**  
-- **Sega ALL.Net** (DataMonster/datjohn)  
+- **Sega ALL.Net** (DataMonster/datajohn)  
 - **TeknoParrot**  
 - **MAME** 
 
@@ -57,7 +66,7 @@ This is an example showing only the repo dats fully loaded into an RV instance (
 <img width="608" height="76" alt="image" src="https://github.com/user-attachments/assets/4d2c8cc7-c786-40a9-befc-a552064a0e7d" />
 
 
-You should have at least 48GB of RAM to use these DAT files properly. RomVault loads the entire DAT cache into memory, and a scan or fix operation can drive the RAM usage up even higher. If your system does not have enough physical RAM available, Windows will move part of that data to the pagefile (virtual memory on disk). The pagefile is significantly slower than real RAM — even on fast NVMe drives. When this happens, you may notice:
+**You should have at least 64GB of RAM to use these DAT files properly.** RomVault loads the entire DAT cache into memory, and a scan or fix operation can drive the RAM usage up even higher. If your system does not have enough physical RAM available, Windows will move part of that data to the pagefile (virtual memory on disk). The pagefile is significantly slower than real RAM — even on fast NVMe drives. When this happens, you may notice:
 - Slower cache updates
 - Slower "Find Fixes" operations
 - General performance degradation
@@ -138,9 +147,9 @@ Contributions are always welcome! Ways you can help:
 - **New Dumps** – Share material to grow the collection for future preservation.  
 - **Playability** – Share loaders, tools, or guides that make certain games playable.  
 
-Have some unknown files that still don't match with the dats? Pack your unknown files up into separate folders named for their system, then create a single archive for each system (zip/7z/rar/tar/gz are all acceptable).  Simply upload them to the Mega Uploads folder provided below. You don't need an account, simply drag and drop into the webpage! We'll give this a try and hopefully I won't see any abuse of the uploads folder.
+Do you have something you want to share? Pack your unknown files up into separate folders named for their system, then create a single archive for each system (zip/7z/rar/tar/gz are all acceptable).  Upload them to the Mega Uploads folder provided below. You don't need an account, simply drag and drop! I'll give this a try and hopefully I won't see any abuse of the uploads folder.
 
-If you would like to be recognized for your donations, include a note inside the uploads and I'll be sure to add you to a thank you list on this page.
+If you would like to be recognized for your donations, include a note and I'll be sure to add you to a thank you list on this page.
 
 Use the MEGA uploads folder here:
 
@@ -153,8 +162,7 @@ Use the MEGA uploads folder here:
 
 ## Direct notes to the arcade community:
 
-I am not affiliated or aligned with any p2p or online preservation groups, stylized as Myrient or Minerva or whatever they call themselves.
-If any of this content is out on the internet, it's due to people using the datfiles to create and manage their own set of file content.
+I am not affiliated or aligned with any p2p or online preservation groups, stylized as Myrient, Minerva or whatever they call themselves.
 The data is not hoarded in any way. It's all out there, kiddies.
 
 - this is MY repo, so I do things how I like them to be done.
