@@ -61,10 +61,11 @@ This arcade repo is large and resource-intensive. **It is not intended for low-m
 
 ## If you are planning on loading the ENTIRE arcade repo collection into RomVault, please note the following:
 
-This is an example showing only the repo dats fully loaded into an RV instance (no other dats included):
+This is an example showing only the repo dats fully loaded into an RV instance (no other dats included):  
 
-<img width="608" height="76" alt="image" src="https://github.com/user-attachments/assets/4d2c8cc7-c786-40a9-befc-a552064a0e7d" />
+<img width="608" height="76" alt="image" src="https://github.com/user-attachments/assets/4d2c8cc7-c786-40a9-befc-a552064a0e7d" />  
 
+--- 
 
 **You should have at least 64GB of RAM to use these DAT files properly.** RomVault loads the entire DAT cache into memory, and a scan or fix operation can drive the RAM usage up even higher. If your system does not have enough physical RAM available, Windows will move part of that data to the pagefile (virtual memory on disk). The pagefile is significantly slower than real RAM — even on fast NVMe drives. When this happens, you may notice:
 - Slower cache updates
@@ -74,25 +75,6 @@ This is an example showing only the repo dats fully loaded into an RV instance (
 If your RAM usage is regularly hitting 90% or higher during RomVault operations, you do not have sufficient headroom, and performance will suffer.
 
 In short: this collection expects workstation-class memory, not casual desktop specs.
-
----
-
-## EXTRAS Folder Overview
-Why the heck is it so large? Well, this folder is designed to separate out content that would otherwise clutter up the core game repository, such as:
-- **Artworks** - bezels, flyers, magazines, marquees, stuff for LaunchBox and MAME
-- **Loaders** - various game loaders used to run some of the repo content
-- **Manuals**
-- **Manufacturers** - various items such as artwork, tools/utilities, executables
-- **Patches** - sorted by game - quite a bit pertains to TeknoParrot but there is a good amount of other loader content
-- **PC Collections** - collections based on arcade games with a frontend
-- **PC Related Works** - game derivatives based on or part of a game series that were only released on the PC platform
-- **PC Related Works Rhythm** - PC games based on rhythm-style arcade gameplay
-- **Rhythm Community** - beatoraja and BMS community-based collections. Most of the size is because of this folder. 
-- **TeknoParrot** - content pertaining to TPUI content and settings
-- **Touchscreen** - PC-based touchscreen content
-- **Tutorials** - knowledge-based stuff
-- **Utilities** - apps and tools related to arcade games
-- **Vending, Kiosks** - why not.
 
 ---
 
