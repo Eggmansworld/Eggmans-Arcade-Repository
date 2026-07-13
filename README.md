@@ -8,9 +8,10 @@ If these tools or dats help save you time or assist in your own preservation eff
 # Eggman’s Arcade Repository 
 
 ### Current Archive Size (ZStandard)
-Arcade Repo - 17.7 TB  
-Arcade Repo Supp:  918 GB  
-Arcade Repo Comp: 4.4 TB  
+Arcade Repo: 20.6 TB  
+Arcade Repo Comp: 3.74 TB
+Arcade Repo Supp: 920.7 GB
+
 
 ## Overview
 Eggman’s Arcade Repository is a **preservation project** that archives arcade games to ensure their long-term retention. There are still thousands of games not yet emulated, but have been made available and are just floating around out there in the digital world. The goal is to provide a central archive where the files can survive long-term, even as forums, websites, and chatrooms disappear. 
