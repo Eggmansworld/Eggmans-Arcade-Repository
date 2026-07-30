@@ -124,30 +124,10 @@ To many of you, the use of either "unpacked" or "extracted" tags simply means th
 
 ---
 
-## How to Contribute
-Contributions are always welcome! Ways you can help:
-- **Cleanup & Curation** – Identify broken/useless files and suggest removals.  
-- **Rhythm/Bemani Expertise** – These are notoriously painful to manage. If you’re knowledgeable, please share your insight.  
-- **New Dumps** – Share material to grow the collection for future preservation.  
-- **Playability** – Share loaders, tools, or guides that make certain games playable.  
-
-Do you have something you want to share? Pack your unknown files up into separate folders named for their system, then create a single archive for each system (zip/7z/rar/tar/gz are all acceptable).  Upload them to the Mega Uploads folder provided below. You don't need an account, simply drag and drop! I'll give this a try and hopefully I won't see any abuse of the uploads folder.
-
-If you would like to be recognized for your donations, include a note and I'll be sure to add you to a thank you list on this page.
-
-Use the MEGA uploads folder here:
-
-[![mega_uploads](https://github.com/user-attachments/assets/bdd28a8c-6db1-42cc-b0e6-6dc1250b8f8a)](https://mega.nz/filerequest/8y7XTuVrMyc) 
-
----
-
-
----
-
 ## Direct notes to the arcade community:
 
 I am not affiliated or aligned with any p2p or online preservation groups, stylized as Myrient, Minerva or whatever they call themselves.
-The data is not hoarded in any way. It's all out there, kiddies.
+The data is not hoarded in any way. It's all out there.
 
 - this is MY repo, so I do things how I like them to be done.
 - This repo will **never be finished**.  
@@ -157,21 +137,18 @@ The data is not hoarded in any way. It's all out there, kiddies.
 - I do not judge what gets added to the repo. If you don't like rhythm or redemption games, nobody's forcing you to worry about them.
 - If you think something is broken, provide a solution on how to fix it.
 - If you think something needs to be changed in the repo (game in wrong place, wrongly tagged files, etc), submit an issue on github and validate your claim with details and proof.
-- DO NOT BOTHER ME ABOUT TEMP FILES. For this repo, it is NOT about cleaning up games. Especially log and temp files! These files could provide valuable running details about the system before the power plug was pulled on it.
+- DO NOT BOTHER ME ABOUT TEMP FILES. This is NOT about cleaning up games, especially log and temp files! These files could provide valuable running details about the system before the power plug was pulled on it.
 - Game dumps are provided AS-IS, and almost always exactly AS-FOUND.
 - Don't bother me about "You don't you have XX game" or "do you have YY game" or "how do I setup ZZ game". 
 	- If it's not in the dats, it's not in the repo. If games are not made available to me, I can't add them.
 	- I'm not your tour guide - games are separated by manufacturer, system and game.
 	- Do your own setup homework, join communities, use search engines and AI. Explore and learn.
 
-
-
 ---
 
 ## Acknowledgments
 Thanks to the following for their indirect contributions (with or without permission):  
 - **Archive.org**  
-- **TFK**  
 - Arcade Freaks (touchscreen content)  
 - **Yori Yoshizuki**  
 - nameless websites, forums and trackers
